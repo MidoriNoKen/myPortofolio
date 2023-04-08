@@ -94,7 +94,7 @@ article {
 }
 
 article h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-block: 1rem;
 }
 
@@ -108,7 +108,7 @@ article h3 {
 }
 
 article p {
-    line-height: 1.7rem;
+    line-height: 1rem;
     font-size: 1.2rem;
     text-align: justify;
 }
