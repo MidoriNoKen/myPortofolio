@@ -356,13 +356,11 @@ main {
 
 .about-section .container .header .title {
   font-size: var(--font-size-9xl);
-  color: var(--gradient-4);
 }
 
 .about-section .container .header .sub-title {
-  font-size: var(--font-size-29xl);
+  font-size: var(--font-size-61xl);
   color: var(--gray-3);
-  font-size: 4rem;
 }
 
 .about-section .lorem-ipsum-dolor,
@@ -383,80 +381,122 @@ main {
   font-size: 1rem;
 }
 
+.myeducation-section {
+  padding: 4rem;
+}
+
+.myeducation-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.myeducation-section .container .header {
+  text-align: center;
+  font-weight: bold;
+}
+
+.myeducation-section .container .line {
+  max-width: 40%;
+}
+
+.myeducation-section .container .header .title {
+  font-size: var(--font-size-9xl);
+  color: var(--gradient-4);
+}
+
+.myeducation-section .container .header .sub-title {
+  font-size: var(--font-size-29xl);
+  color: var(--gray-3);
+}
+
+.myeducation-section .content-container {
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 68%;
+}
+
+.myeducation-section .content-container .content {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.myeducation-section .content-container .content img {
+  width: 20%;
+}
+
+.myeducation-section .content-container .content .body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.myeducation-section .content-container .content .body>*:last-of-type {
+  margin-top: .5rem;
+}
+
+.myeducation-section .content-container .content .body .title {
+  color: var(--gray-3);
+  font-size: 1rem;
+}
+
+.myeducation-section .content-container .content .body .title {
+  color: var(--gray-3);
+  font-size: var(--font-size-9xl);
+}
+
+.myeducation-section .content-container .content .body .sub-title {
+  color: var(--gray-3);
+  font-size: var(--font-size-5xl);
+}
+
+.myeducation-section .content-container .content .body .description {
+  font-weight: 500;
+  color: var(--gray-1);
+}
+
+.quotes {
+  background-color: var(--stylist-color-3);
+  padding: 4rem;
+}
+
+.quotes .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--gray-3);
+  height: 32vh;
+}
+
+.quotes .content .quotation {
+  font-size: var(--font-size-109xl);
+  margin-bottom: -4.5rem;
+}
+
+.quotes .content .text {
+  font-size: var(--font-size-17xl);
+  font-weight: bolder;
+  width: 60%;
+  margin-bottom: 1rem;
+}
+
+.quotes .content .username {
+  font-family: var(--font-patrick-hand);
+  font-size: var(--font-size-9xl);
+  margin-bottom: 1rem;
+}
 
 /* 
-.certifications {
-  color: var(--color-lightseagreen);
-}
-.title-divider6 {
-  position: absolute;
-  top: 3.63rem;
-  left: 36.88rem;
-  font-size: var(--font-size-61xl);
-  color: var(--stylist-color-1);
-}
-.option-2-item {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: var(--stylist-color-3);
-  box-shadow: var(--menu-field-shadow);
-  width: 50rem;
-  height: 37.5rem;
-}
-.image-13-icon,
-.logo5 {
-  position: absolute;
-  top: 2.75rem;
-  left: 20.5rem;
-}
-.image-13-icon {
-  top: 8.31rem;
-  left: 6.63rem;
-  width: 36.63rem;
-  height: 25.94rem;
-  object-fit: cover;
-}
-.image-13-icon1,
-.option-21 {
-  position: absolute;
-  top: 23.94rem;
-  left: 35rem;
-  width: 50rem;
-  height: 37.5rem;
-}
-.image-13-icon1 {
-  top: 8.31rem;
-  left: 21.25rem;
-  width: 36.63rem;
-  height: 25.94rem;
-  object-fit: cover;
-}
-.option-22,
-.option-23 {
-  position: absolute;
-  top: 23.94rem;
-  left: -21.25rem;
-  width: 50rem;
-  height: 37.5rem;
-}
-.option-23 {
-  left: 91.25rem;
-}
-.shape-divider3,
-.website-4 {
-  position: absolute;
-  left: 0;
-  width: 120rem;
-}
-.website-4 {
-  top: 202.5rem;
-  background-color: var(--gray-2);
-  height: 67.5rem;
-  overflow: hidden;
-  font-size: var(--font-size-17xl);
-  color: var(--color-lightseagreen);
-}
 .shape-divider3 {
   top: 0;
   background-color: var(--stylist-color-3);
