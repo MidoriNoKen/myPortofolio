@@ -672,6 +672,8 @@ main {
 
 .myexperience-section .container .timeline .date {
   text-align: center !important;
+  color: var(--gradient-4);
+  font-size: var(--font-size-17xl);
 }
 
 /* 
